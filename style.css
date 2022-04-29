@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+p,
+h1,
+h2,
+h4,
+h5,
+li {
+  font-family: Roboto;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
+li {
+  list-style: none;
+}
+
+.section-title {
+  background: #d8c21a;
+  font-family: Roboto;
+  color: #000000;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  -webkit-box-shadow: 0px 4px 25px 3px rgba(34, 60, 80, 0.37);
+  -moz-box-shadow: 0px 4px 25px 3px rgba(34, 60, 80, 0.37);
+  box-shadow: 0px 4px 25px 3px rgba(34, 60, 80, 0.37);
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  width: 270px;
+  background: #181818;
+}
+
+.left-side li{
+  color: #e7e4e4;
+}
+
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.contacts-list li {
+  margin: 5px;
+  font-size: 14px;
+}
+
+.contacts-list a {
+  color: #337cdb;
+}
+
+.skills-list {
+  padding-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.skills-list li {
+  border: solid 1px white;
+  border-radius: 5px;
+  padding: 4px;
+  margin: 5px;
+}
+
+.right-side {
+  background: #181818;
+}
+
+.right-side h1, h2{
+  padding-left: 50px;
+}
+
+.right-side p {
+  padding: 10px;
+}
+
+.right-side h1,h2,h4,li,.exp-text,p {
+  color: #d8d2d2
+}
+
+.right-side .section-title {
+  padding-left: 0;
+}
+
+.exp-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.exp-details .exp-left {
+  width: 35%;
+}
+
+.exp-right {
+  width: 65%;
+}
+
+.exp-title, .exp-text {
+  font-size: 14px;
+}
+
+.exp-title {
+  padding: 10px;
+  margin: 0;
+}
+
+.exp-text {
+  margin: 0;
+}
+
+.exp-right {
+  margin-left: 10px;
+}
+
+.exp-right .exp-list {
+  padding-left: 0;
+  padding-right: 10px;
+  margin: 0;
+}
+
+.exp-list li {
+  font-size: 14px;
+}
+
+.certificates ul {
+  padding-left: 10px;
+}
+
+.certificates a {
+  color: #337cdb;
+}
