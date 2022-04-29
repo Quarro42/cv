@@ -143,6 +143,14 @@ li {
   font-size: 14px;
 }
 
+.code-examples ul {
+  padding-left: 10px;
+}
+
+.code-examples a {
+  color: #337cdb;
+}
+
 .certificates ul {
   padding-left: 10px;
 }
